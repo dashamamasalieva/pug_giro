@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.wrapper {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+header {
+  height: 62px;
+  background-color: #729ddd;
+}
+header .logo {
+  float: left;
+  margin-top: 13px;
+}
+header .logo h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+header .main-menu {
+  float: right;
+  margin-top: 25px;
+}
+header .main-menu ul li {
+  list-style-type: none;
+  float: left;
+  margin-left: 33px;
+  text-transform: uppercase;
+}
+header .main-menu ul li a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url("img/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 815px;
+  text-align: center;
+}
+.banner h1 {
+  color: white;
+  font-size: 56px;
+  font-weight: 300;
+  padding-top: 244px;
+}
+.banner p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 39px;
+}
+.banner input[type=button] {
+  width: 133px;
+  height: 35px;
+  border-radius: 10px;
+  background: white;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  margin-top: 64px;
+}/*# sourceMappingURL=style.css.map */
